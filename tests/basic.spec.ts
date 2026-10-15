@@ -1,6 +1,6 @@
 import { test } from '@playwright/test';
 
-test.only('Open Amazon', async ({ page }) => {
+test('Open Amazon', async ({ page }) => {
   await page.goto('https://www.amazon.in/');
 });
 
